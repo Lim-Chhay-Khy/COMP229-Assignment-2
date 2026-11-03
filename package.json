@@ -1,0 +1,14 @@
+{
+  "name": "myportfolio-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix MyPortfolio install && npm --prefix MyPortfolio/client install",
+    "start": "npm --prefix MyPortfolio start",
+    "dev": "npm --prefix MyPortfolio run dev",
+    "server": "npm --prefix MyPortfolio run server",
+    "client": "npm --prefix MyPortfolio run client",
+    "build": "npm --prefix MyPortfolio/client run build",
+    "lint": "npm --prefix MyPortfolio/client run lint"
+  }
+}
